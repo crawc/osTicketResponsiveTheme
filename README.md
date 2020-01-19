@@ -1,6 +1,6 @@
 # osTicketResponsiveTheme
 
-Responsive theme for osTicket
+Responsive theme for osTicket v.1.14 Client Area.
 
 # Activate
 
