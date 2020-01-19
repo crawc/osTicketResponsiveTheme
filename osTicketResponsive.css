@@ -1,8 +1,6 @@
 
 
 html {
-  font-size: 100%;
-  overflow-y: scroll;
   margin: 0;
   padding: 0;
 }
@@ -420,11 +418,17 @@ h2,
   color: #F3F3F3;
 }
 
-#nav li a.active,
 #nav li a:hover {
-  font-weight: bold;
-  color: #FFF;
+  text-decoration: underline;
 }
+
+#nav li a.active {
+  color: #FFF;
+  background-color: #444;
+  text-decoration: none;
+  pointer-events: none;
+}
+
 
 
 /* Main content */
@@ -434,7 +438,6 @@ h2,
   background-color: #FFF;
   padding: 1rem;
   min-height: 350px;
-  /* check why this is needed */
 }
 
 
